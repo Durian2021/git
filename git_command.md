@@ -37,13 +37,23 @@ https://codelikes.com/vscode-git-plugin/
 |                                    |                                                                                   |                                                             |
 
 ### ブランチ操作
-|                 main                 |            説明             |         コマンド          |
-| ------------------------------------ | --------------------------- | ------------------------- |
-| git switch ブランチ名                | 指定ブランチに切り替え      |                           |
-| git switch -c 新しいブランチ名       | 指定ブランチを作成/切り替え | git switch -c feature/01  |
-|                                      |                             |                           |
-| <font color="Red">git branch </font> | ブランチの一覧を表示        | git branch                |
-| git branch -d ブランチ名             | 指定ブランチの削除          | git branch -d feature/01 |
-|                                      |                             |                           |
-|                                      |                             |                           |
-|                                      |                             |                           |
+| main                                           | 説明                         | コマンド                 |
+| ---------------------------------------------- | ---------------------------- | ------------------------ |
+| <font color="Red">git switch ブランチ名</font> | 指定ブランチに切り替え       |                          |
+| git switch -c 新しいブランチ名                 | 指定ブランチを作成/切り替え  | git switch -c feature/01 |
+|                                                |                              |                          |
+| <font color="Red">git branch </font>           | ブランチの一覧を表示         | git branch               |
+| git branch -d ブランチ名                       | 指定ブランチの削除           | git branch -d feature/01 |
+|                                                |                              |                          |
+| git merge ブランチ名                           | 分岐したブランチをマージする | git merge ブランチ名     |
+|                                                |                              |                          |
+
+### 前の状態に戻す
+|                main                |       説明       | コマンド |
+| ---------------------------------- | ---------------- | -------- |
+| git restore .--source 戻したい場所 | 指定位置まで戻る |          |
+|                                    |                  |          |
+|                                    |                  |          |
+|                                    |                  |          |
+|                                    |                  |          |
+|                                    |                  |          |

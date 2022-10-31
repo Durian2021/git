@@ -49,7 +49,7 @@ https://codelikes.com/vscode-git-plugin/
 |                                                |                              |                          |
 
 
-
+![LINK Text](https://github.com/Durian2021/git/blob/main/resorce/image/Screenshot%20from%202022-10-31%2013-27-42.png?raw=true)
 
 
 ### 前の状態に戻す

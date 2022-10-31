@@ -45,11 +45,11 @@ https://codelikes.com/vscode-git-plugin/
 | <font color="Red">git branch </font>           | ブランチの一覧を表示         | git branch               |
 | git branch -d ブランチ名                       | 指定ブランチの削除           | git branch -d feature/01 |
 |                                                |                              |                          |
-| git merge ブランチ名                           | 分岐したブランチをマージする | git merge ブランチ名     |
+| git merge ブランチ名                           | 分岐したブランチをマージする | git merge ブランチ名<br>マージは、取り込みたい側のブランチに入り、取り込む側をマージする|
 |                                                |                              |                          |
 
 
-![LINK Text](https://github.com/Durian2021/git/blob/main/resorce/image/Screenshot%20from%202022-10-31%2013-27-42.png?raw=true)
+<!-- ![LINK Text](https://github.com/Durian2021/git/blob/main/resorce/image/Screenshot%20from%202022-10-31%2013-27-42.png?raw=true) -->
 
 
 ### 前の状態に戻す

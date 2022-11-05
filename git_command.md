@@ -37,23 +37,23 @@ https://codelikes.com/vscode-git-plugin/
 |                                    |                                                                                   |                                                             |
 
 ### ブランチ操作
-| main                                           | 説明                         | コマンド                 |
-| ---------------------------------------------- | ---------------------------- | ------------------------ |
-| <font color="Red">git switch ブランチ名</font> | 指定ブランチに切り替え       |                          |
-| git switch -c 新しいブランチ名                 | 指定ブランチを作成/切り替え  | git switch -c feature/01 |
-|                                                |                              |                          |
-| <font color="Red">git branch </font>           | ブランチの一覧を表示         | git branch               |
-| git branch -d ブランチ名                       | 指定ブランチの削除           | git branch -d feature/01 |
-|                                                |                              |                          |
-| git merge ブランチ名                           | 分岐したブランチをマージする | git merge ブランチ名<br>マージは、取り込みたい側のブランチに入り、取り込む側をマージする|
-|                                                |                              |                          |
+| main                                           | 説明                         | コマンド                                                                                 |
+| ---------------------------------------------- | ---------------------------- | ---------------------------------------------------------------------------------------- |
+| <font color="Red">git switch ブランチ名</font> | 指定ブランチに切り替え       |                                                                                          |
+| git switch -c 新しいブランチ名                 | 指定ブランチを作成/切り替え  | git switch -c feature/01                                                                 |
+|                                                |                              |                                                                                          |
+| <font color="Red">git branch </font>           | ブランチの一覧を表示         | git branch                                                                               |
+| git branch -d ブランチ名                       | 指定ブランチの削除           | git branch -d feature/01                                                                 |
+|                                                |                              |                                                                                          |
+| git merge ブランチ名                           | 分岐したブランチをマージする | git merge ブランチ名<br>マージは、取り込みたい側のブランチに入り、取り込む側をマージする |
+|                                                |                              |                                                                                          |
 
 
 <!-- ![LINK Text](https://github.com/Durian2021/git/blob/main/resorce/image/Screenshot%20from%202022-10-31%2013-27-42.png?raw=true) -->
 
 
 ### 前の状態に戻す
-|                main                 |                説明                |                            コマンド                             |
+| main                                | 説明                               | コマンド                                                        |
 | ----------------------------------- | ---------------------------------- | --------------------------------------------------------------- |
 | git restore . --source 戻したい場所 | 指定位置まで戻る                   | git restore . --source 4c1794f6d6e87e5c2845fcb8060c8b0cedd676fd |
 | git restore . --source HEAD~2       | 最終コミットがHEAD、その前がHEAD~1 |                                                                 |
@@ -61,3 +61,6 @@ https://codelikes.com/vscode-git-plugin/
 |                                     |                                    |                                                                 |
 |                                     |                                    |                                                                 |
 |                                     |                                    |                                                                 |
+
+
+purutesut
